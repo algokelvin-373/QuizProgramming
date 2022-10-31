@@ -12,9 +12,9 @@ public class Quiz06 {
         number[0] = a;
         for (int i = 1; i < number.length; i++) {
             if (i % 2 == 0) {
-                number[i] = (a += b);
+                number[i] = a += b;
             } else {
-                number[i] = (a *= b);
+                number[i] = a *= b;
             }
         }
 
